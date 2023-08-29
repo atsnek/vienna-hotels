@@ -10,6 +10,13 @@ const config: GatsbyConfig = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`
+      }
+    },
+    {
       resolve: `gatsby-plugin-jaen`,
       options: {
         // The folder where the page templates are located
