@@ -146,7 +146,7 @@ export const HotelItem = connectBlock(
               </Stack>
 
               {!(hiddenUrlField.isEditing || !value) && (
-                <LinkOverlay as={Link} href={value}>
+                <LinkOverlay as={Link} href={value} isExternal>
                   Zur Website
                 </LinkOverlay>
               )}
