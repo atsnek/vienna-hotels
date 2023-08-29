@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Link, HeadFC, PageProps} from 'gatsby'
+import {Link, PageProps} from 'gatsby'
 import {PageConfig} from '@atsnek/jaen'
 import {LightMode, GlobalStyle} from '@chakra-ui/react'
 
