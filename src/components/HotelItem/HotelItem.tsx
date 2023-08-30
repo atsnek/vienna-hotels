@@ -15,6 +15,7 @@ import {
   Text,
   VStack
 } from '@chakra-ui/react'
+import {Link as GatsbyLink} from 'gatsby'
 
 import {FaLandmark, FaPhone} from 'react-icons/fa'
 
@@ -118,7 +119,7 @@ export const HotelItem = connectBlock(
                   color="white"
                   textTransform="uppercase"
                   as={Link}
-                  to={
+                  href={
                     bookingUrlField.value || bookingUrlField.staticValue || '/'
                   }>
                   Book now
