@@ -22,6 +22,7 @@ import * as React from 'react'
 
 import {HotelItems} from '../components/HotelItems'
 import {StarsDivider} from '../components/StarsDivider'
+import {SocialDivider} from '../components/SocialDivider'
 
 const IndexPage: React.FC<PageProps> = () => {
   const impressumDisclosure = useDisclosure()
@@ -65,6 +66,8 @@ const IndexPage: React.FC<PageProps> = () => {
           textAlign={'center'}>
           <Field.Text name="text2" defaultValue="Hotels in Vienna" />
         </Heading>
+
+        <SocialDivider />
 
         <StarsDivider />
       </Container>
