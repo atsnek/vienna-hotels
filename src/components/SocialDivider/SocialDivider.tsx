@@ -17,7 +17,7 @@ export const SocialDivider = () => {
         variant="outline"
         href="https://www.facebook.com/hotelsvienna"
         isExternal
-        leftIcon={<FaInstagram />}>
+        leftIcon={<FaFacebook />}>
         Like us on Facebook
       </Button>
       <Button
@@ -26,7 +26,7 @@ export const SocialDivider = () => {
         variant="outline"
         href="https://www.instagram.com/vienna_hotels"
         isExternal
-        leftIcon={<FaFacebook />}>
+        leftIcon={<FaInstagram />}>
         Follow us on Instagram
       </Button>
     </HStack>
