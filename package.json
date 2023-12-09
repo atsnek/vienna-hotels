@@ -16,11 +16,11 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@atsnek/jaen": "^1.0.0-rc.4",
+    "@atsnek/jaen": "^1.0.0-rc.38",
     "@chakra-ui/icons": "^2.1.0",
     "@chakra-ui/react": "^2.8.0",
     "gatsby": "^5.11.0",
-    "gatsby-plugin-jaen": "^1.0.0-rc.8",
+    "gatsby-plugin-jaen": "^1.0.0-rc.65",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
