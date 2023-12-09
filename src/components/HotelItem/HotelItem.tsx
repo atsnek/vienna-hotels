@@ -15,9 +15,9 @@ import {
   Text,
   VStack
 } from '@chakra-ui/react'
-import {Link as GatsbyLink} from 'gatsby'
 
-import {FaLandmark, FaPhone} from 'react-icons/fa'
+import {FaLandmark} from '@react-icons/all-files/fa/FaLandmark'
+import {FaPhone} from '@react-icons/all-files/fa/FaPhone'
 
 export const HotelItem = connectBlock(
   (props: BoxProps) => {

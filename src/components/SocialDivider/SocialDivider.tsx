@@ -1,5 +1,6 @@
 import {HStack, Button, Link} from '@chakra-ui/react'
-import {FaFacebook, FaInstagram} from 'react-icons/fa'
+import {FaFacebook} from '@react-icons/all-files/fa/FaFacebook'
+import {FaInstagram} from '@react-icons/all-files/fa/FaInstagram'
 
 export interface SocialDividerProps {}
 
